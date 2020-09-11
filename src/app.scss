@@ -1,1 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header {
+    background-color: #101010;
+}
+
+
+.ul-top {
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ul-bot {
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+}
