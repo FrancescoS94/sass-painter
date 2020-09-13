@@ -1,0 +1,12 @@
+@mixin mpb {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin ul-top-bot {
+    width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+}

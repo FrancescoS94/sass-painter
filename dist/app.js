@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\franc\OneDrive\desktop\Boolean es\Sass\es. 1. 11-09-20\sass-painter\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\Users\franc\OneDrive\desktop\Boolean es\Sass\es. 1. 11-09-20\sass-painter\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! C:\Users\franc\OneDrive\desktop\Boolean es\Sass\Es. 1. 11-09-20\sass-painter\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\Users\franc\OneDrive\desktop\Boolean es\Sass\Es. 1. 11-09-20\sass-painter\src\app.scss */"./src/app.scss");
 
 
 /***/ })
