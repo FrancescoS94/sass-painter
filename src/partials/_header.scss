@@ -1,0 +1,57 @@
+header {
+    background-color: #101010;
+    .ul-top {
+        @include wm;
+        @include ul-top-bot;
+        justify-content: flex-end;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        i {
+            font-size: 16px;
+            color: $color-blue;
+            padding-left: 20px;
+            margin-right: 7px;
+        }
+        a {
+            text-decoration: $text-decoration-n;
+            color: $color-li-top;
+            &:hover {
+                text-decoration: underline;
+                color: $text-color-w;
+            }
+        }
+        select {
+            margin-left: 20px;
+        }
+    }
+
+    .ul-bot {
+        @include wm;
+        @include ul-top-bot;
+        align-items: baseline;
+        padding-bottom: 14px;
+        img {
+            height: 25px;
+            padding-right: 15px;
+        }
+        li {
+            span {
+                padding: $padding-ul-bot;
+                &:hover {
+                    background-color: #f1f1f1;
+                    a {
+                        color: black;
+                    }
+                }
+                a {
+                    text-decoration: $text-decoration-n;
+                    color: $text-color-w;
+                }
+                i {
+                    font-size: 10px;
+                    color: $color-chevron;
+                }
+            }
+        }
+    }
+}

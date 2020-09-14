@@ -1,12 +1,18 @@
+// HEADER
 @mixin mpb {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@mixin ul-top-bot {
+@mixin wm {
     width: 80%;
     margin: 0 auto;
-    list-style-type: none;
+}
+
+@mixin ul-top-bot {
+    list-style-type: $list-style-none;
     display: flex;
 }
+
+// MAIN

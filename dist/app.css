@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 header {
   background-color: #101010;
 }
@@ -73,5 +67,133 @@ header .ul-bot li span a {
 header .ul-bot li span i {
   font-size: 10px;
   color: #878787;
+}
+
+main .section-1 {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  background-size: cover;
+  background-position: top center;
+  padding-top: 20px;
+  color: white;
+}
+
+main .section-1 .c-1 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main .section-1 .c-1 h1 {
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+main .section-1 .c-1 h2 {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+main .section-1 .c-1 ul {
+  list-style-type: none;
+}
+
+main .section-1 .c-1 ul i {
+  color: #878787;
+  font-size: 10px;
+}
+
+main .section-1 .c-1 ul li {
+  margin-bottom: 15px;
+}
+
+main .section-1 .c-1 .btn-1 {
+  background-color: #666666;
+  border: none;
+  padding: 5px 10px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+main .section-1 .c-1 .btn-1:hover {
+  opacity: 0.85;
+}
+
+main .section-1 .c-1 .btn-1 a {
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+
+main .section-1 .c-1 .btn-1 a span {
+  display: block;
+  padding-right: 10px;
+}
+
+main .section-1 .c-1 .btn-1 .fa-download {
+  font-size: 28px;
+  border-left: 1px solid white;
+  padding-left: 10px;
+  color: white;
+}
+
+main .section-1 .box-1 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  padding: 20px 20px;
+}
+
+main .section-1 .box-1 img {
+  float: right;
+}
+
+main .section-1 .box-1 p {
+  font-size: 26px;
+  margin-top: 25px;
+}
+
+main .section-1 .box-1 #download {
+  display: block;
+  text-transform: uppercase;
+  color: #999999;
+  margin-bottom: 20px;
+}
+
+main .section-1 .box-1 button {
+  background-color: #009cff;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 6px 37px;
+  margin-bottom: 40px;
+}
+
+main .section-1 .box-1 .btn-2 {
+  background-color: #e6e6e6;
+  padding: 5px 12px;
+}
+
+main .section-1 .box-1 .btn-2 a {
+  text-decoration: none;
+  color: black;
+}
+
+main .section-1 .box-1 .btn-2 a #FREE {
+  display: block;
+}
+
+main .section-1 .box-1 .btn-2 a #learn {
+  color: #009cff;
+}
+
+main .section-1 .box-1 .btn-2 a #learn:hover {
+  text-decoration: underline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 

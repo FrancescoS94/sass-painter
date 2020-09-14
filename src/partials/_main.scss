@@ -1,0 +1,105 @@
+main {
+    .section-1 {
+        background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+        background-size: cover;
+        background-position: top center;
+        // height: 460px;
+        padding-top: 20px;
+        color: $text-color-w;
+        .c-1 {
+            @include wm;
+            h1 {
+                font-size: 30px;
+                padding-top: 25px;
+            }
+            h2 {
+                font-size: 25px;
+                margin-top: 15px;
+                margin-bottom: 20px;
+            }
+            ul {
+                list-style-type: $list-style-none;
+                i {
+                    color: $color-chevron;
+                    font-size: 10px;
+                }
+                li {
+                    margin-bottom: 15px;
+                }
+            }
+            .btn-1 {
+                background-color: #666666;
+                border: none;
+                padding: 5px 10px;
+                text-align: left;
+                margin-top: 25px;
+                &:hover {
+                    opacity: 0.85;
+                }
+                a {
+                    display: inline-block;
+                    vertical-align: middle;
+                    text-decoration: $text-decoration-n;
+                    color: white;
+                    span {
+                        display: block;
+                        padding-right: 10px;
+                    }
+                }
+                // span {
+                //     padding-right: 10px;
+                // }
+                .fa-download {
+                    font-size: 28px;
+                    border-left: 1px solid white;
+                    padding-left: 10px;
+                    color: white;
+                }
+            }
+        }
+        .box-1 {
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            padding: 20px 20px;
+            img {
+                float: right;
+            }
+            p {
+                font-size: 26px;
+                margin-top: 25px;
+            }
+            #download {
+                display: block;
+                text-transform: uppercase;
+                color: #999999;
+                margin-bottom: 20px;
+            }
+            button {
+                background-color: #009cff;
+                border: none;
+                color: white;
+                text-transform: uppercase;
+                padding: 6px 37px;
+                margin-bottom: 40px;
+            }
+            .btn-2 {
+                background-color: #e6e6e6;
+                padding: 5px 12px;
+                a {
+                    text-decoration: $text-decoration-n;
+                    color: black;
+                    #FREE {
+                        display: block;
+                    }
+                    #learn {
+                        color: #009cff;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
