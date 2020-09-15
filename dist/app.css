@@ -175,6 +175,10 @@ main .section-1 .box-1 button {
   margin-bottom: 40px;
 }
 
+main .section-1 .box-1 button:hover {
+  opacity: 0.9;
+}
+
 main .section-1 .box-1 .btn-2 {
   background-color: #e6e6e6;
   padding: 5px 12px;
@@ -195,5 +199,42 @@ main .section-1 .box-1 .btn-2 a #learn {
 
 main .section-1 .box-1 .btn-2 a #learn:hover {
   text-decoration: underline;
+}
+
+main .section-2 {
+  background-color: #e6e6e6;
+  height: 80px;
+}
+
+main .section-2 .bar {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main .section-2 .bar ul {
+  line-height: 80px;
+}
+
+main .section-2 .bar ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+main .section-2 .bar ul li a {
+  text-decoration: none;
+  color: #555;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 27px 25px 25px;
+}
+
+main .section-2 .bar ul li a:hover {
+  background-color: #eee;
+}
+
+main .section-2 .bar ul li a:focus {
+  color: black;
+  background-color: white;
+  border-bottom: 2px solid black;
 }
 
